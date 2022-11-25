@@ -1,0 +1,116 @@
+#body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#333;
+    font-size: 1rem;
+    line-height: 1em;
+    margin:0;
+    text-decoration:none;
+    background-color:#1D8753;
+}
+.p{
+    margin-bottom:1.6em;
+}
+.h2{
+    font-size:2em;
+    line-height:1em;
+    background-color: #489749;
+}
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+header{
+    background:#32F135;
+    color: 489749;
+    text-decoration: none;
+}
+.header.a{
+    color:489749;
+    text-decoration: none;
+    list-style: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul{
+    margin:0;
+    padding:0;
+}
+.navigation ul li{
+    display: inline-block;
+    position: relative;
+    z-index: 1000;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: dashed;
+}
+.navigation ul li a:hover{
+    background:#91f769;
+}
+#navbar{
+    background-color: #94D1B3;
+}
+body fieldset{
+    font-size: 1rem;
+    text-decoration:none;
+    border:2px;
+    border-style:solid;
+    background:url(https://imgs.search.brave.com/o2aRXZkwlzJfHo2kU0H1dxH1mwmSz-dpf_PEZZAtk10/rs:fit:704:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5K/b0E2c0dIUXJTQzdh/a0lacjJNUXZnSGFF/XyZwaWQ9QXBp)no-repeat fixed;
+    background-size: cover;
+    min-height: 50vh;
+    width: 100%;
+    max-width: 900px;
+    list-style-position: inside;
+    margin: 0 auto;
+    line-break: normal;
+}
+main fieldset{
+    background-color:#94D1B3 ;
+}
+.informacionad{
+    width: 90%;
+    max-width: 120em;
+    background-color: cadetblue;
+    padding: 0.5em;
+}
+.informacionad .ul{
+    width:120%;
+    max-width: 120em;
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    position: cover;
+}
+.informacionad .li{
+    background-color: aqua;
+    padding: 0.5em;
+    margin: 0 0.5em 0 0;
+    transition:all .5es ease ;
+}
+.informacionad .li.activo{
+    background-color: rgb(0, 255, 170);
+    padding: 0.5em;
+}
+.informacionad .subinf{
+    background-color:rgb(112, 255, 112) ;
+    min-height: 10vh;
+    margin: 0 1em 0 0;
+    position: relative;
+}
+.informacionad .subinfbloque{
+    background-color: greenyellow;
+    margin: 1em 1em 1em 0;
+    padding: 1em;
+    position: absolute;
+    top:2em;
+    opacity:0;
+    transition:all .5es ease ;
+}
+.informacionad .subinfbloque.activo{
+    opacity:1 ;
+}

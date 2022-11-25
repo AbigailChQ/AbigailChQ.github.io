@@ -1,0 +1,89 @@
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link href="examen final.css" rel="stylesheet" type="text/css" />
+    <title>Centros de reciclaje de material tecnológico </title>
+</head>
+<body>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="proyfinal.html" class="logo">Compañia</a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="Shop.html">Shop</a></li>
+                    <li><a href="Equipo.html">Equipo</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Inversiones.html">Compañia</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <fieldset class="Datos">
+            <legend><strong>Datos</strong></legend>
+            <table>
+                <tr>
+                    <td>
+                        <label>Usuario</label><input type="usuario" name="paramTexto"/>
+                    </td>
+                    <td>
+                        <label>Contraseña:</label><input type="contraseña" name="paramPasswd"/>
+                    </td>
+                </tr>
+                <td>
+                    <strong><p>Si no tiene una cuenta de usuario llene el siguiente formulario</p></strong>
+                </td>
+                <tr>
+                    <td>
+                        <label>Primer Nombre:</label><input type="text" name="nombre1" pattern="[a-z]"/>
+                    </td>
+                    <td>
+                        <label>Segundo Nombre(Opcional)</label><input type="text" name="nombre2" pattern="[a-z]"/>
+                    </td>  
+                </tr>
+                <tr>
+                    <td>  
+                        <label>Primer Apellido:</label><input type="text" name="apellido1" pattern="[a-z]"id= "Apellido1"/>
+                    </td>
+                    <td>
+                        <label>Segundo Apellido(Opcional)</label><input type="text" name="apellido2" pattern="[a-z]"id= "Apellido2"/>
+                    </td>
+                    <td>
+                        <label>Correo Electronico</label><input type="Text" name="correo" pattern="[a-z0-9]+@[a-z0-9]+\.[a-z]{2,4}$"name="paramPasswd"id= "Correo"/>
+                    </td>
+                    <td>
+                        <input type="button" value="Enviar" onClick="Almacenar()">
+                    </td>
+                </tr>
+                <tr>
+                    <a>Ciudad en la que habita</a>
+                    <select name="select"para[] value="15" multiple>
+                    <optgroup label="Paices">//Hace gupos en la listbox
+                    <option value="1">República Argentina</option>
+                    <option value="2">Aruba</option>
+                    <option value="3">Estado Plurinacional de Bolivia </option>
+                    <option value="4">República Federativa del Brasil </option>
+                    <option value="5">República de Chile</option>
+                    <option value="6">República de Colombia </option>
+                    <option value="7">Curazao</option>
+                    <option value="8">República del Ecuador</option>
+                    <option value="9">República Cooperativa de Guyana</option>
+                    <option value="10">Territorio británico de ultramar</option>
+                    <option value="11">República del Paraguay</option>
+                    <option value="12">República de Surinam </option>
+                    <option value="13">República de Trinidad y Tobago</option>
+                    <option value="14">República Oriental del Uruguay</option>
+                    <option value="15">República Bolivariana de Venezuela</option>
+                    <optgroup>
+                    <optgroup label="Ciudades">
+                    <option value="1">La Paz</option>
+                    <option value="2">Oruro</option>
+                    <option value="3">Sucre</option>
+                    </optgroup>
+                    </select>
+                </tr>
+            </table>
+            </fieldset>
+    </main>
+</body>
+</html>
